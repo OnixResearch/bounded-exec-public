@@ -93,14 +93,23 @@ Successful preparation proves only that the selected output-retention capacity w
 
 ## Source publication
 
-The canonical Radicle project is `rad:z2CpqLFpdP36fZXYUK5ZNWxMibpCo`. The
-reviewed pilot source is the exact Git object
-`29dac88ecded94457572db3fdfaaaab95fa91525`, available read-only at
-`https://git.onix.computer/z2CpqLFpdP36fZXYUK5ZNWxMibpCo.git`. GitHub is a
-transition mirror, not an admitted dependency fallback.
+The independently rooted derived source snapshot is published at
+[`OnixResearch/bounded-exec-public`](https://github.com/OnixResearch/bounded-exec-public).
+Its reviewed source root is `ca4c5ccfb194c2a1bb217a37a47c25a0efde21ec`.
+Consumers, including Cairn's Bounded Exec input, must pin an exact published
+revision and align Cargo and Nix source identities; `main` is discovery, not
+an immutable dependency pin.
 
-See [`docs/radicle-publication.md`](docs/radicle-publication.md) for clone,
-exact-revision consumption, outage, rollback, evidence, and non-claim details.
+This is source-only publication, not release admission or a correctness claim.
+The repository starts with a derived snapshot, not the original private Git
+history. Original commit IDs recorded in pilot documents and receipts are
+historical evidence, not objects promised by this public source repository.
+No runtime behavior or process-mechanism boundary changes with publication.
+
+See [`ADOPTION.md`](ADOPTION.md) for current consumer cutover requirements.
+[`docs/radicle-publication.md`](docs/radicle-publication.md) preserves the
+historical Radicle publication evidence and its original claim boundaries;
+it does not establish current endpoint availability or admit a fallback.
 
 ## Verification
 
@@ -116,8 +125,8 @@ Positive coverage includes explicit environment/input round trips and accepted e
 
 See [`PILOT.md`](PILOT.md) for the disposable two-consumer migration evidence,
 [`ADOPTION.md`](ADOPTION.md) for the authoritative consumer cutover gate, and
-[`docs/radicle-publication.md`](docs/radicle-publication.md) for the accepted
-Radicle publication receipt.
+[`docs/radicle-publication.md`](docs/radicle-publication.md) for the historical
+Radicle publication receipt, not current source or release admission.
 
 ## License
 

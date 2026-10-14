@@ -11,14 +11,19 @@ A disposable migration against exact Mantle and Octet base revisions also passed
 
 ## Cutover gate
 
-The reviewed commit `29dac88ecded94457572db3fdfaaaab95fa91525` is now
-published as canonical Radicle project
-`rad:z2CpqLFpdP36fZXYUK5ZNWxMibpCo` through the read-only HTTPS adapter
-`https://git.onix.computer/z2CpqLFpdP36fZXYUK5ZNWxMibpCo.git`. The accepted
-publication receipt is documented in
-[`docs/radicle-publication.md`](docs/radicle-publication.md). Maintained
-consumers must not use an ambient `../bounded-exec` path or configure an
-automatic GitHub fallback.
+The current independently rooted derived source is
+`https://github.com/OnixResearch/bounded-exec-public.git`, with reviewed source
+root `ca4c5ccfb194c2a1bb217a37a47c25a0efde21ec`. Cairn's Bounded Exec input and
+other authorized consumers must pin an exact published revision, not an
+ambient `../bounded-exec` path or mutable branch. Source availability alone
+does not admit a consumer cutover or release.
+
+The earlier Radicle pilot at `29dac88ecded94457572db3fdfaaaab95fa91525`
+and RID `rad:z2CpqLFpdP36fZXYUK5ZNWxMibpCo` is historical evidence, preserved
+in [`docs/radicle-publication.md`](docs/radicle-publication.md). Its original
+no-fallback policy and receipts are unchanged. The new public snapshot is an
+explicit source selection, not an automatic fallback or a claim that the
+historical Git object exists in this independently rooted repository.
 
 After consumer-owned cutover authorization:
 

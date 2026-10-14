@@ -1,4 +1,20 @@
-# Radicle publication
+# Historical Radicle publication
+
+This document records the accepted 2026-07-25 pilot and its claim boundaries.
+All coordinates, acquisition results, outage observations, and rollback
+instructions below belong to that historical pilot; they do not establish
+current availability or authorize use of those endpoints for the derived
+public snapshot. Frozen receipt and governance bytes remain unchanged.
+
+Current source discovery is
+[`OnixResearch/bounded-exec-public`](https://github.com/OnixResearch/bounded-exec-public),
+rooted independently at `ca4c5ccfb194c2a1bb217a37a47c25a0efde21ec`.
+See [`../ADOPTION.md`](../ADOPTION.md) for exact-revision consumer cutover.
+This public source repository does not publish original private history or
+promise the historical Git objects below. Source publication is not release
+admission, process correctness, or renewed Radicle availability evidence.
+
+## Historical pilot identity
 
 Bounded Exec's canonical project identity is
 `rad:z2CpqLFpdP36fZXYUK5ZNWxMibpCo`. The reviewed pilot source remains the exact
